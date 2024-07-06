@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hidden{
+    display: none;
+}
+
+.image{
+    width: fit-content;
+}
+
+#images-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#app-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.img{
+    height: 240px;
+    width: 480px;
+    padding: 30px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#body-container{
+    display: flex;
+    justify-content: center;
+}
+
+#counter{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet{
+    cursor: pointer;
+}
+
+.bullet.selected{
+    color: blue;
+}
